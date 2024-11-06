@@ -2,6 +2,32 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.8.0](https://github.com/box/box-typescript-sdk-gen/compare/v1.7.0...v1.8.0) (2024-11-06)
+
+
+### Bug Fixes
+
+* fix `additionalProperties` in `ClientError` (box/box-openapi[#477](https://github.com/box/box-typescript-sdk-gen/issues/477)) ([#385](https://github.com/box/box-typescript-sdk-gen/issues/385)) ([4547148](https://github.com/box/box-typescript-sdk-gen/commit/454714861019998b1fc6b7c44696b0178ffa022b))
+* update client error schema to support schema errors (box/box-openapi[#467](https://github.com/box/box-typescript-sdk-gen/issues/467)) ([#381](https://github.com/box/box-typescript-sdk-gen/issues/381)) ([b845f12](https://github.com/box/box-typescript-sdk-gen/commit/b845f12d194d5f4e0cfd66db1db294e2f9a9bff8))
+* update integration mapping response description (box/box-openapi[#463](https://github.com/box/box-typescript-sdk-gen/issues/463)) ([#379](https://github.com/box/box-typescript-sdk-gen/issues/379)) ([e3d71e1](https://github.com/box/box-typescript-sdk-gen/commit/e3d71e100500c5fa9e478b5228fd395f68242cf2))
+
+
+### New Features and Enhancements
+
+* add AI LLM endpoint AWS `params` (box/box-openapi[#478](https://github.com/box/box-typescript-sdk-gen/issues/478)) ([#388](https://github.com/box/box-typescript-sdk-gen/issues/388)) ([d2fd1ec](https://github.com/box/box-typescript-sdk-gen/commit/d2fd1ec4bddb19b353e286908c99477e08b90457))
+* Support get collection by ID endpoint (box/box-codegen[#595](https://github.com/box/box-typescript-sdk-gen/issues/595)) ([#396](https://github.com/box/box-typescript-sdk-gen/issues/396)) ([f1f47be](https://github.com/box/box-typescript-sdk-gen/commit/f1f47bebfc0981a5e67f301b6fc2e3a8568d5845))
+
+
+
+### API Schema Updates
+* Change model type from `User` to `UserEntity` ([8eea6b9](https://github.com/box/box-typescript-sdk-gen/commit/8eea6b9e626336e16665610f9926bb53d9b46154))
+* Change model type from `AiLlmEndpointParamsGoogleOrAiLlmEndpointParamsOpenAi` to `AiLlmEndpointParamsAwsOrAiLlmEndpointParamsGoogleOrAiLlmEndpointParamsOpenAi` ([498ca61](https://github.com/box/box-typescript-sdk-gen/commit/498ca6116482e8c7b0d0079c48cb770d1181503e))
+* Change model type from `ABC` to `XYZ` ([498ca61](https://github.com/box/box-typescript-sdk-gen/commit/498ca6116482e8c7b0d0079c48cb770d1181503e))
+
+
+### Breaking Changes in Beta API
+* Change beta model `AIModel` to `AIParams` ([8eea6b9](https://github.com/box/box-typescript-sdk-gen/commit/8eea6b9e626336e16665610f9926bb53d9b46154))
+
 ## [1.7.0](https://github.com/box/box-typescript-sdk-gen/compare/v1.6.0...v1.7.0) (2024-10-17)
 
 
