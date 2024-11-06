@@ -434,5 +434,6 @@ export function getValueFromObjectRawData(obj: any, key: string): any {
   if (obj && typeof obj === 'object' && obj.rawData) {
     return obj.rawData[key];
   }
+  
   return undefined;
 }
