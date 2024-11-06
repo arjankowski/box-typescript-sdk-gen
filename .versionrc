@@ -16,6 +16,11 @@
       "hidden": false
     },
     {
+      "type": "beta-breaking-change",
+      "section": "Breaking Changes in Beta API",
+      "hidden": false
+    },
+    {
       "type": "chore",
       "hidden": true
     },
